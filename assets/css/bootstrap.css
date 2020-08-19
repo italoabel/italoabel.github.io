@@ -16,8 +16,8 @@ body {
 article,
 aside,
 details,
-figcaption,
-figure,
+
+
 footer,
 header,
 hgroup,
@@ -86,12 +86,6 @@ sub {
 }
 img {
   border: 0;
-}
-svg:not(:root) {
-  overflow: hidden;
-}
-figure {
-  margin: 1em 40px;
 }
 hr {
   height: 0;
@@ -1057,17 +1051,19 @@ th {
 .glyphicon-menu-up:before {
   content: "\e260";
 }
-* {
+
+.row {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
-*:before,
-*:after {
+.row:before,
+.row:after {
   -webkit-box-sizing: border-box;
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+
 html {
   font-size: 10px;
 
@@ -1101,9 +1097,6 @@ a:focus {
   outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
-}
-figure {
-  margin: 0;
 }
 img {
   vertical-align: middle;
