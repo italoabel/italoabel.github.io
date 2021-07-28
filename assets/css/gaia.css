@@ -4049,3 +4049,7 @@ body {
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.logo-align{
+  padding-top: 95px;
+}
